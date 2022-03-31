@@ -1,0 +1,61 @@
+.board-box {
+    text-decoration: none;
+    display: block;
+    padding: 22px 34px;
+    box-sizing: border-box;
+    width: 200px;
+    align-items: center;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #eee;
+    color: #666;
+    transition: ease-in 0.3s;
+}
+.scrumboard .chart-icon:hover {
+    color: blue
+}
+.scrumboard div .chart-icon {
+    display: block;
+    margin: 0 auto 24px auto;
+    font-size: 34px;
+}
+
+.scrumboard div .trash-icon {
+    color: #666;
+    top: 10px;
+    right: 10px;
+}
+
+.scrumboard div .trash-icon:hover {
+    color: red;
+}
+
+.scrumboard div .solid-icon {
+    color: #666;
+    top: 10px;
+    right: 10px;
+}
+
+.scrumboard div .solid-icon:hover {
+    color: red;
+}
+
+.three-dot-icon{
+    top: 10px;
+    left: 10px;
+    color: #666;
+}
+
+.three-dot-icon:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.member-delete {
+    float: right;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+}
+.member-delete:hover {
+    color: red;
+}

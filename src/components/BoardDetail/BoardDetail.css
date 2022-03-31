@@ -1,0 +1,19 @@
+.List-parent {
+    border: 1px solid #eee;
+}
+.list-title {
+    padding: 1rem 10rem 1rem 2rem;
+    font-weight: 600;
+}
+
+.control-icon{
+    color: #888;
+}
+
+.delete-icon:hover{
+    color: brown;
+}
+
+.edit-icon:hover{
+    color: #282c34;
+}
